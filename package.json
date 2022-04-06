@@ -1,13 +1,12 @@
 {
   "name": "@dwlib/hex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hex",
   "imports": {
     "#intrinsics/*": "@dwlib/intrinsics/abstract/*",
     "#primordials/*": "@dwlib/primordials/*",
+    "#types/*": "@dwlib/types/*",
     "#abstract/*": "@dwlib/abstract/*",
-    "#ascii/*": "@dwlib/ascii/abstract/*",
-    "#utf8/*": "@dwlib/utf8/abstract/*",
     "#internal/*": {
       "require": "./lib/internal/*.js",
       "import": "./lib/internal/*.mjs"
@@ -57,9 +56,8 @@
   "homepage": "https://github.com/dwlib-js/hex#readme",
   "dependencies": {
     "@dwlib/abstract": "^1.0.8",
-    "@dwlib/ascii": "^1.0.0",
     "@dwlib/intrinsics": "^1.0.4",
     "@dwlib/primordials": "^1.0.4",
-    "@dwlib/utf8": "^1.0.4"
+    "@dwlib/types": "^1.0.1"
   }
 }
